@@ -297,3 +297,62 @@ Hilo
 Threading es la cracin de multiples linesas de flujo de ocntrol a traves de un program o creando multiples thredas
 
 Extendiendo de la clas Thread o implementantod lainterface runnable
+
+hilo
+	ciclo de vida
+		comienza cuando una nueva 
+		runanble tre
+		3.- running
+		4.- Dead, Blocked, Deadlock, Waiting o Sleeping
+
+	Un objeto Thread se puede entender como el panel de cotnrol sobre un tarea o hilo de ejecucion
+	Dispone de metodos para ocntrolar el comportameinto de als tareas
+		destory 
+		getName
+		getPriority
+
+	implements Runnable (para poder usar hilos
+
+		)
+
+	yield par aponer en clenderizacin 
+	prioridad(10-1)
+
+Entrado y salida de datos
+	Streams
+		se escribe y lee de diferentes 
+	entre una fuetne y un destino fluye una secuencia de datos
+
+	Clasificacion de flujos
+		flujos bytes InputStream OutStrema
+		caracteres
+			Reader Writer
+
+		Entrada
+			InputStream REader
+		salida
+			Outputstream Writer
+		tipo de acceso 
+			secuencias
+
+InputStrema
+InputStream Reader
+BufferReader
+
+coneccion para una base de datos
+	jdbc
+		es una pai que permite la ejecucuion de operaciones 
+	java.sql
+		jdbc ofrece paquete jav.sql
+		clasese para manejo de base de datos
+	DriverManager
+		para cargar un driver (distintas bases de datos)
+	Conecction
+		para establecer conexiones con las bases de datos
+	statement 
+		para ejecutar sentencasi sql y enviarlas a las bbdd
+	resulset
+		para almacenar el resultado de la consulta
+
+Java built path para agregar la libreria
+	references libraries
