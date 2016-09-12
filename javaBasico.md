@@ -260,3 +260,40 @@ Lista es un tipo de dato
 	almacena elementos por medio de un indice
 	extiende de la interface collectino
 	get,set,add
+
+delclarando un arraylist
+	ArrayList<Integer> miLista = new ArrayList<Integer>();
+	miLista.add(1);
+
+	for(Integer i: miLista){
+
+	}
+
+Herencia
+	Se estabel un arelacion padre-hijo eontre dos objtos existentes
+
+Subclae y SuperClase
+	una subclase es una clase que 
+		hereda de una super clase
+		es declarada con la plabra reservada extends
+		puede acceder mimbros de la super clase con el mismo no
+	public protected pueden ser heredados
+
+	Los miembros heredados pueden tenr multples formas dentro de l subclase y superclase
+
+	super hace referencia a todos los elmentos de la clase padre
+
+	polimorfismo muchas formas
+		se comprata diferente qeu el del padre
+
+	super()
+		llama al constructor de la calse padre
+	super.
+		llama un metodo d ela clase padre
+
+Hilo 
+	es un trozo de codigo de nuestro program que pude se rejecutado al msimo tiempo pque otro.
+
+Threading es la cracin de multiples linesas de flujo de ocntrol a traves de un program o creando multiples thredas
+
+Extendiendo de la clas Thread o implementantod lainterface runnable
